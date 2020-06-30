@@ -464,6 +464,7 @@ Small devices (landscape phones, 576px and up)
     .upper-footer .news button {
         width: 45%;
     }
+
  }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -477,6 +478,8 @@ Small devices (landscape phones, 576px and up)
     .upper-footer .news button {
         width: 45%;
     }
+    .features .container {
+        padding: 0;
  }
 
 /* Large devices (desktops, 992px and up)
