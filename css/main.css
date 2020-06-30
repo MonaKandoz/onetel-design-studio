@@ -174,7 +174,7 @@ body{
     color: #fff;
     padding: 20px 30px;
     position: relative;
-    min-height: 300px;
+    min-height: 320px;
 }
 .startup img{
     padding: 0;
@@ -444,7 +444,7 @@ Small devices (landscape phones, 576px and up)
         font-size: 22px;
     }
     .startup .info {
-        min-height: 500px;
+        min-height: 350px;
     }
     .startup .info span{
         left: 35%;
