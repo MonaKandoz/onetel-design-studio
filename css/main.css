@@ -394,26 +394,76 @@ body{
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
     .features {
-        height: 1300px;
+        height: 1350px;
     }
     .features .container{  
         left: 3%;
     }
     .features .container div{
         max-width: 100%;
-        margin: 20px 0;
+        margin: 10px 0;
     } 
+    .features h3 {
+        font-size: 22px;
+    }
+    .startup .info {
+        min-height: 500px;
+    }
     .startup .info span{
         left: 35%;
     }
     .navbar{
         margin: 0 10px;
     }
-}
+    .navbar-brand h3{
+        font-size: 20px;
+        margin-left: 22px;
+    }
+    .navbar-brand .logo {
+        top: 16px;
+        width: 22px;
+        height: 22px;
+    }
+    .upper-footer .news button {
+        width: 45%;
+    }
 
-/* Small devices (landscape phones, 576px and up)
+Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    
+      .features {
+        height: 1350px;
+    }
+    .features .container{  
+        left: 3%;
+    }
+    .features .container div{
+        max-width: 100%;
+        margin: 10px 0;
+    } 
+    .features h3 {
+        font-size: 22px;
+    }
+    .startup .info {
+        min-height: 500px;
+    }
+    .startup .info span{
+        left: 35%;
+    }
+    .navbar{
+        margin: 0 10px;
+    }
+    .navbar-brand h3{
+        font-size: 20px;
+        margin-left: 22px;
+    }
+    .navbar-brand .logo {
+        top: 16px;
+        width: 22px;
+        height: 22px;
+    }
+    .upper-footer .news button {
+        width: 45%;
+    }
  }
 
 /* Medium devices (tablets, 768px and up)*/
