@@ -427,6 +427,7 @@ body{
     .upper-footer .news button {
         width: 45%;
     }
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -480,6 +481,7 @@ body{
     }
     .features .container {
         padding: 0;
+    }
  }
 
 /* Large devices (desktops, 992px and up)
