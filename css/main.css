@@ -348,7 +348,7 @@ body{
 }
 .upper-footer .news button{
     margin: 9px 0;
-    width: 25%;
+    width: 30%;
     font-weight: 600;
     transition: all .5s ease-in-out;
 }
@@ -392,12 +392,9 @@ body{
 }
 /*end footer*/
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { 
+@media (min-width: 310px) and (max-width: 575.98px) { 
     .features {
-        height: 1350px;
-    }
-    .features .container{  
-        left: 3%;
+        height: 1150px;
     }
     .features .container div{
         max-width: 100%;
@@ -432,57 +429,40 @@ body{
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
       .features {
-        height: 1350px;
-    }
-    .features .container{  
-        left: 3%;
+        height: 1050px;
     }
     .features .container div{
         max-width: 100%;
         margin: 10px 0;
     } 
-    .features h3 {
-        font-size: 22px;
-    }
     .startup .info {
         min-height: 350px;
     }
     .startup .info span{
         left: 35%;
     }
-    .navbar{
-        margin: 0 10px;
-    }
-    .navbar-brand h3{
-        font-size: 20px;
-        margin-left: 22px;
-    }
-    .navbar-brand .logo {
-        top: 16px;
-        width: 22px;
-        height: 22px;
-    }
+    
     .upper-footer .news button {
         width: 45%;
     }
-
  }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    .startup .col{
-        max-width: 47%;
+    .features .container{
+        max-width: 88%;
     }
-    .features h3 {
-        font-size: 18px;
+    .startup .col{
+        max-width: 50%;
+        
     }
     .upper-footer .news button {
-        width: 45%;
+    width: 45%;
     }
     .features .container {
         padding: 0;
-    }
- }
+     }
+}
 
 /* Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
